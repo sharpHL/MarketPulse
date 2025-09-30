@@ -1,0 +1,4 @@
+pandas>=2.2
+requests>=2.31
+pyarrow>=14.0
+chinese-calendar>=1.8
