@@ -28,7 +28,9 @@ LOGGER = logging.getLogger(__name__)
 API_URL = "https://push2.eastmoney.com/api/qt/clist/get"
 API_FIELDS = "f2,f3,f5,f6,f12,f13,f14,f20"
 API_FS = "m:0+t:6,m:0+t:13,m:0+t:80,m:0+t:81,m:0+t:82,m:1+t:2,m:1+t:23"
-SNAPSHOT_TIMES = ("09:30", "10:00", "10:30", "11:00", "11:30", "13:30", "14:00", "14:40", "15:00")
+# SNAPSHOT_TIMES = ("09:30", "10:00", "10:30", "11:00", "11:30", "13:30", "14:00", "14:40", "15:00")
+SNAPSHOT_TIMES = ("09:30", "11:00", "14:00", "15:30")
+
 MARKET_SUFFIXES = {"0": "SZ", "1": "SH", "116": "BJ", "105": "HK", "106": "US"}
 HEADERS = {
     "User-Agent": (
